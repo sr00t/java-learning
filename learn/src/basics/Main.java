@@ -3,7 +3,7 @@ package basics;
 import org.w3c.dom.ls.LSOutput;
 
 public class Main {
-    // methode
+    // methode oder funktion
     public static void main(String[] args){
         //  neues Obejekt Haus mit name meinHaus
         Haus meinHaus = new Haus();
