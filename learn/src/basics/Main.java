@@ -2,6 +2,8 @@ package basics;
 
 import org.w3c.dom.ls.LSOutput;
 
+import javax.swing.*;
+
 public class Main {
     // methode oder funktion
     public static void main(String[] args){
