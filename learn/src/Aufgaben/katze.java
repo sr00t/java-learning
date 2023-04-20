@@ -1,10 +1,10 @@
 package Aufgaben;
 
 public class katze {
-    int atler = 1;
-    int gewicht = 132;
-    String name = "cat";
-    String farbe = "color";
-    int rasse = 8;
+    int atler = 0;
+    int gewicht = 0;
+    String name = "name";
+    String farbe = "farbe";
+    String rasse = "irgendwas";
     String faehigkeit = "miauu";
 }
