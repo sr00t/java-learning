@@ -1,1 +1,2 @@
-print ('Hello world, I\'m groot')
+name = input('give your name ')
+print('Hello world, I\'m ' + name +',')
