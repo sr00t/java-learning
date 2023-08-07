@@ -1,5 +1,5 @@
 pay_hourly = input('give your hourly pay: ') # per €
-day = 8 * int(pay_hourly)
+day = 8 * float(pay_hourly)
 week = 5 * day
 month = 20 * day
 year = 12 * month
