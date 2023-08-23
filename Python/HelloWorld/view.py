@@ -1,4 +1,8 @@
+from os import walk
+_, _, filenames = next(walk('img'))
 
+print(filenames)
+html = """
 <html>
    <head>
    <title></title>
@@ -11,8 +15,19 @@
    </style>
    </head>
    <body>
-   <img src="img/2.jpg"><img src="img/3.jpg"><img src="img/1.jpg"><img src="img/0.jpg">
+   """
+for f in filenames:
+    html += '<img src="img/' + f + '">'
+
+html += """
    <h1>Gallery for my photos</h1>
    <img src="https://cdn.pixabay.com/photo/2023/08/08/15/01/flower-8177578_960_720.jpg">  
    </body>
 </html>
+"""
+
+print(html)
+
+# write html string to file.html
+with open("index.html", "w") as file:
+    file.write(html)
